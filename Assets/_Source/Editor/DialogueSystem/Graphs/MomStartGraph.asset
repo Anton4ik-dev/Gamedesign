@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0202a3095b7477a4091d56344f0af6b3, type: 3}
+  m_Name: MomStartGraph
+  m_EditorClassIdentifier: 
+  <FileName>k__BackingField: MomStart
+  <Groups>k__BackingField: []
+  <Nodes>k__BackingField:
+  - <ID>k__BackingField: 3ae32627-6ea3-495e-94fb-161eaff89624
+    <Name>k__BackingField: "\u0416\u0435\u043D\u0449\u0438\u043D\u0430"
+    <Text>k__BackingField: "\u0423\u0445\u043E\u0434\u0438\u0442\u0435 \u0432\u043E\u043D
+      \u0438\u0437 \u043C\u043E\u0435\u0433\u043E \u0434\u043E\u043C\u0430, \u043C\u043D\u0435
+      \u0441\u043E\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u043E \u043D\u0435 \u0434\u043E
+      \u0432\u0430\u0441"
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <NextDialogue>k__BackingField: MomStart
+    <Position>k__BackingField: {x: 1464.7999, y: 269.59998}
+    <iconPerson>k__BackingField: {fileID: 21300000, guid: 669dd3f8e7577e94f898c45eccb26d02,
+      type: 3}
+    <IsInterlocutor>k__BackingField: 1
+    <IsAppear>k__BackingField: 1
+  - <ID>k__BackingField: 4f939061-5908-4c35-9aa2-ee9f41f79cb2
+    <Name>k__BackingField: "\u0416\u0443\u0440\u043D\u0430\u043B\u0438\u0441\u0442"
+    <Text>k__BackingField: "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435,
+      \u043C\u0435\u043D\u044F \u0437\u043E\u0432\u0443\u0442..."
+    <Choices>k__BackingField:
+    - <Text>k__BackingField: Next Dialogue
+      <NodeID>k__BackingField: 3ae32627-6ea3-495e-94fb-161eaff89624
+    <GroupID>k__BackingField: 
+    <DialogueType>k__BackingField: 0
+    <NextDialogue>k__BackingField: NextDialogue(ifFinish)
+    <Position>k__BackingField: {x: 804.8, y: 269.59998}
+    <iconPerson>k__BackingField: {fileID: 21300000, guid: 5211ca147536deb4aa7fd939212357d0,
+      type: 3}
+    <IsInterlocutor>k__BackingField: 0
+    <IsAppear>k__BackingField: 1
+  <OldGroupNames>k__BackingField: []
+  <OldUngroupedNodeNames>k__BackingField:
+  - "\u0416\u0435\u043D\u0449\u0438\u043D\u0430"
+  - "\u0416\u0443\u0440\u043D\u0430\u043B\u0438\u0441\u0442"
+  <OldGroupedNodeNames>k__BackingField:
+    list: []
